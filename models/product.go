@@ -7,3 +7,9 @@ type Product struct {
 	Stock       int    `json:"stock"`
 	Category_ID int    `json:"category_id"`
 }
+
+type BestSellingProduct struct {
+	ID         int    `json:"id"`
+	Name       string `json:"name"`
+	QtyTerjual int    `json:"qty_terjual"`
+}
